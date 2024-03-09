@@ -1,0 +1,46 @@
+{
+  "bin": {
+    "movement": "bin/movement"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "colors": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-winston": "*",
+    "forever": "*",
+    "fs-extra": "*",
+    "jsonfile": "*",
+    "migrate": "*",
+    "mkdirp": "*",
+    "optimist": "*",
+    "repl-eval-actor": "*",
+    "request": "*",
+    "sequelize": "*",
+    "socket.io": "*",
+    "tail": "*",
+    "underscore": "*",
+    "winston": "*"
+  },
+  "deprecated": false,
+  "description": "attempt at making a framework",
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "framework"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "repl-move-ment",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anjunabeach1/repl-move-ment.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "0.0.13"
+}
